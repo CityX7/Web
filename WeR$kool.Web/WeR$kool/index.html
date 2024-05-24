@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Progress Bar and Login Example</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <script src="main.js" defer></script> <!-- Link to JavaScript file -->
+</head>
+<body>
+    <div>
+        <h1>Testing for Computational Vulnerabilities</h1>
+        <div id="progressContainer">
+            <div id="progressBar"></div>
+        </div>
+        <button onclick="startProgress()">Start Test</button>
+    </div>
+
+    <div>
+        <h1>Login Form</h1>
+        <form id="loginForm" onsubmit="return handleLogin(event)">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
